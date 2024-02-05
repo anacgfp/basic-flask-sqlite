@@ -6,6 +6,7 @@
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-6. ativa o venv .venv\Scripts\activate
+6. ativa o venv .venv\Scripts\activate (windows)
+6. se for no linux source .venv\bin\activate
 7. instala as dependencias pip install -r requirements.txt
 8. roda o app -> python app.py
